@@ -1,6 +1,6 @@
 # Unlocking ImageNet’s Multi-Object Nature: Automated Large-Scale Multilabel Annotation
 
-Official repository for the paper: **Unlocking ImageNet’s Multi-Object Nature: Automated Large-Scale Multilabel Annotation**
+Official repository for the [paper](https://arxiv.org/abs/2603.05729): **Unlocking ImageNet’s Multi-Object Nature: Automated Large-Scale Multilabel Annotation**
 
 ## Implementation
 
@@ -50,10 +50,11 @@ ImageNet images often contain multiple objects, but the benchmark provides only 
 If you find this work useful, please consider citing:
 
 ```bibtex
-@inproceedings{chen2026multilabel_imagenet,
-  title     = {Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation},
-  author    = {Junyu Chen and Md Yousuf Harun and Christopher Kanan},
-  booktitle = {CVPR (Findings)},
-  year      = {2026}
+@article{chen2026multilabel_imagenet,
+  title   = {Unlocking ImageNet's Multi-Object Nature: Automated Large-Scale Multilabel Annotation},
+  author  = {Chen, Junyu and Harun, Md Yousuf and Kanan, Christopher},
+  journal = {arXiv preprint arXiv:2603.05729},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2603.05729}
 }
 ```
