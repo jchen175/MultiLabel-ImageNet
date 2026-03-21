@@ -1,6 +1,6 @@
 # Multilabel ImageNet-1K Annotations (Compressed Format)
 
-We provide **multilabel annotations for ImageNet-1K** in a **compact text format** intended for review.
+We provide **multilabel annotations for ImageNet-1K** in a **compact text format** intended for review. We used the standard [LOC_synset_mapping](https://github.com/formigone/tf-imagenet/blob/master/LOC_synset_mapping.txt), which provides the correspondence between class indices and class names.
 
 To minimize storage size, probabilities are quantized (rounded to 4 decimal places), and the full object proposals (≈16.3 GB) are omitted, which will be released together upon paper acceptance.
 
