@@ -5,7 +5,17 @@ Official repository for the [paper](https://arxiv.org/abs/2603.05729): **Unlocki
 ## Implementation
 
 - **`code/`** — Reference code implementation.
-- **`multilabel/`** — Our multilabel ImageNet-1K annotations.
+- **`multilabel/`** — Lightweight compressed ImageNet-1K multi-label annotations and loading utilities.
+
+## Dataset
+
+The complete released dataset is available on Hugging Face:
+
+**https://huggingface.co/datasets/k3999/multilabel-imagenet-1k**
+
+The Hugging Face release contains the ImageNet-1K train-split multi-label annotations, selected object masks, per-mask top-5 label probabilities, and export metadata. It does **not** include the original ImageNet images; users need separate access to ImageNet-1K and can join annotations by the relative `filename` field.
+
+The `multilabel/` folder in this repository keeps the compact image-level TSV version for quick inspection and backward compatibility.
 
 ## Paper summary
 
